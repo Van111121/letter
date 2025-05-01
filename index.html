@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Message to Trixee</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0f172a;
+      color: #f1f5f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+
+    .chat-wrapper {
+      width: 100%;
+      max-width: 600px;
+      padding: 1rem;
+      background-color: #1e293b;
+      border-radius: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .message-bubble {
+      align-self: flex-end;
+      background-color: #4a5e80;
+      color: #fff;
+      padding: 1rem 1.25rem;
+      border-radius: 20px 20px 4px 20px;
+      max-width: 100%;
+      font-size: 1.7rem;
+      opacity: 0.8;
+      line-height: 1.5;
+      white-space: pre-wrap;
+      border-right: 2px solid rgba(255, 255, 255, 0.8);
+      animation: blink 1s step-end infinite;
+    }
+
+    .no-blink {
+      animation: none;
+      border-right: none;
+    }
+
+    @keyframes blink {
+      from, to { border-color: transparent; }
+      50% { border-color: rgba(255,255,255,0.8); }
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      background-color: #64748b;
+      color: white;
+      border: none;
+      border-radius: 9999px;
+      cursor: pointer;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #475569;
+      transform: translateY(-2px);
+    }
+
+    @media screen and (max-width: 600px) {
+      .chat-wrapper {
+        border-radius: 16px;
+        padding: 0.75rem;
+      }
+
+      .message-bubble {
+        font-size: 1.4rem;
+      }
+
+      .btn-group {
+        flex-direction: column;
+        gap: 0.75rem;
+        width: 100%;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-wrapper">
+    <div id="text" class="message-bubble"></div>
+  </div>
+
+  <div class="btn-group">
+    <button class="btn" id="replayBtn">Replay</button>
+    <button class="btn" id="finishBtn">Finish</button>
+  </div>
+
+  <script>
+
+    const paragraphs = [
+      "Dear Trixee,\n\nI don’t expect anything from you, and I completely understand if you choose not to respond or even read this. I hope you’re doing well. I just wanted you to know that I regret how I handled things in the past. I dreamt about you recently, and it made me reflect on our past and the mistakes I made during our relationship. I’ve been thinking about it a lot, and I wanted to reach out to apologize for how things ended. So now, I’ve decided to write this letter. I know this apology comes late, but I feel it’s important to offer you a sincere apology. \n\n\nI recently visited FCM and Robinson near the subdivision, because I might not be able to go there anymore, I might be moving to another country this year. I thought about the last time we were here together. It brought back so many memories, I wanted to share it with you as part of my letter, which is about apologizing and expressing my gratitude for the time we shared. \n\n\nI also recently checked your facebook account, and I can see that you’re enjoying. Even though I don’t know exactly what’s going on in your life right now, from what I see in your stories and posts, you’ve become brighter and more glowing. It seems like you’re doing the things you talked about wanting to do before, and that’s great. I just want to apologize for what happened in our relationship. This is my final message to you, so you don’t need to worry about hearing from me again. I’m sorry if this message comes so late. \n\n\nI want to apologize for my actions back in 2019 when I was part of the (LLT) team. I remember the group chat and how I failed to defend you when they were shipping me with another girl. Besides the other women, they also included my ex 'rebecca' and there are times when people tease me in the group chat with her and I don't even do anything.. Even though I was in a relationship with you, I didn’t speak up or get angry with them. I was afraid to confront them. But I regret not defending you. I should have made it clear that I was committed to you and that they needed to respect our relationship. I realized too late that I should have cut off people like that around me. It was just annoying on my part at that time because I was so scared. \n\n\nI also recall the time I agreed to meet up with two girls and one of my friends from the (LLT) team. You saw the picture of the four of us in the group chat, and we argued about it. At that moment, I didn't realize how wrong my actions were, and I regret going along with their trips despite your feelings. \n\n\nThere were other times I hurt you. I remember sharing videos of girls on Facebook, reacting with heart emojis to their pictures, and arguing with you about it. I didn’t realize how much I was hurting you and affecting your self-confidence. Instead of understanding your feelings, I became defensive and blamed you, even though I was wrong. I also regret replying to messages from other girls even though you asked me not to. This happened multiple times.. \n\n\nWhen I was in Grade 8, my classmates teased me about Vanessa, and I didn’t defend myself or you. I should have told them I had a girlfriend and that their behavior was inappropriate. The worst part was continuing to chat with Vanessa, knowing she liked me. When you started arguing with her, I did nothing because I was scared. For that, I am truly sorry. \n\n\nIn Grade 9 and 10, I made the mistake of entertaining conversations with Aaliyah and Draven instead of focusing on the homework topics. We argued about this several times, but I kept talking to them. I realize now how wrong I was. Also I met with Aaliyah at that time to get the project I needed, that wouldn't have happened if I hadn't been too lazy to do the project at that time. \n\n\nI also remembered before, that I was talking to dominique  who was my classmate with hannah before in elementary, then we talked again and talk about games or random things, which is i was wrong in that time because i still invited her to play valorant even though you told me that you were jealous of her. \n\n\nI also regret not posting you on my social media. I had so many excuses at the time, and even though you insisted, I didn’t do it. I’m sorry. \n\n\nAlso pag nasa gala ka kasama ung friends mo, there are times rin na may lalaking kaibigan na kasama sa gala ninyo, ako yung naghahanap ng away satin, which is why you're not in the mood to communicate with them because you're upset kasi palagi kitang inaaway kada may gala ka. \n\n\nI regret how my insecurities, struggles with financial pressures and my family problems affected the way I treated you. I know those struggles affected how I treated you and how I handled our relationship. That’s not an excuse, but I want to acknowledge that I could have done better. \n\n\nI also recently thought that maybe I was the reason why your mother didn't pay much attention to you before, like I always told her about your problems, what you were thinking, what your plans were for life, and there was a part where I was fighting with your mom. Like I'm telling na need niya help mo and bakit ka nag kaka-ganon, i feel like the biggest mistake I've made in my life is being too aggressive towards to your mother and maybe because of that, you were more affected. Even though I know naman na may mga something tungkol sa mother mo na dapat hindi niya ginagawa yun. \n\n\nI also regret during the pandemic days, that there were many times when you needed my attention, time and my support. But i didn't give it to you because i was busy playing with my friends for many hours and times. Maybe that's the reason why your overthinking and depression are getting worse because palagi ako naglalaro kasama friends ko. \n\n\nI also remembered that you were telling me about your problems but mina-liit kita and i always say na 'magiging okay rin yan' o 'ako nga ganyan, ganto, blabla pero nalagpasan ko' im really sorry if I was toxic and didn't help you with your problems and depression before. I wish I had communicated better and shown more patience and understanding at that time. \n\n\nI deeply regret not standing up for you and not considering your feelings and I can now see how my actions hurt you. I was thoughtless and inconsiderate, and for that, I am truly sorry. I’ve learned a lot from these mistakes. \n\n\nLooking back, I realize that my immaturity and lack of understanding led me to make so many mistakes. I was afraid of losing friends or what others might think of me if I took certain actions, that I didn't set boundaries or stand up for what was right, especially for you. But I've grown since then, and now I'm not afraid to let go of toxic or unhealthy friendships. \n\n\nYou didn’t deserve the mistakes I made or the ways I hurt you. I regret not treating you with the care and respect you deserved. For all the pain I caused, I am truly sorry.. \n\n\nOur relationship wasn’t perfect, and I know I made many mistakes. But when I think back on us, I also remember the joy and connection we shared. Like the day, when you introduced me to your family even though you didn't like it on your mother's side and when your father came to the philippines you also introduced me to him even though I'm not japanese and I'm very shy that time because I can't speak japanese nor understand it. I really appreciate your courage to introduce me to your family. Sadly, I couldn't introduce you to my family in-person because you weren't allowed to because yung bahay namin sobrang layo. \n\n\nBut thank you very much for the effort you made for me before, like you always wrote me a letter every month, which I appreciate very much from you. I remember that you tried to send me a letter before and you waited for the letter to reach me but it's just sad that the letter didn't reach me but I appreciate that you made an effort for me. \n\n\nI also remember that you always send me pictures or videos, like kumpleto lahat, and wala kang kinakalimutan, even your epic pictures, you still send them to me. There are times when I don't give you a compliment or I don't insist on posting you. But I'm so thankful that time because you haven't changed, you still keep sending me pictures or videos. \n\n\nI loved how you always had stories to tell me. Whether it was gossip or just random events, you always shared every detail. It made me happy that you never ran out of topics to talk about with me. \n\n\nI also remember the time you made an lesson that 'how to understand Japanese words' or 'how to pronounce words.' Even though I was lazy to finish the lessons you gave me, I was so grateful that you helped my sister when she was studying Japanese because of the subject she had in college. \n\n\nI enjoyed playing games with you in roblox, minecraft, fortnite, apex and league of legends even though I always tease you in that game, because I'm so happy that you play with me even though there are times when you get annoyed with me. Especially the part where you tried to learn about 'league of legends' just so you could understand what I was doing in that game, I was so happy that time. Thank you so much for supporting me even though there are times when we always lose in the tournament, and when I live stream, you always share my live stream on your facebook, which I really appreciate. \n\n\nThank you for always updating me about what you were doing, even when I didn’t ask. I remember when you would video call me while you were out with your family or your dad. You weren’t shy, you were proud to have me as your boyfriend, and you always made me feel included. I’ll never forget how part of your routine was to take your phone with you everywhere so I could see what you were doing, whether it was cooking, studying or playing games on nintendo switch on your TV. \n\n\nWhen you return to the Philippines, I'm afraid that you might be surprised when you see me in person, because at that time my skin color was brown because we went on vacation at the beach with my family that time before you came to the Philippines and my face also looks different from the pictures I sent you, because of the filter on my cellphone. But I'm happy because you liked me and your attitude and love didn't change even though you saw me in person that day. Also I loved how you made it part of your routine to take pictures or videos of us when we went to the mall or anywhere outside. I knew you were doing it to preserve our memories, and even though I wasn’t used to it and felt shy, I appreciated it. You made me feel special, and it was the first time I experienced something like that. \n\n\nI also remember when we went swimming here in Montalban with your relatives. I was so embarrassed because I didn't have any money, your relatives paid for all the expenses for me, I really appreciated how kind they were to me and you during those times. There was also a part that was embarrassing, when we slept at their house, like 2am or 3am, they woke me up because my phone was so loud that they woke me up several times. \n\n\nWhen we also went to Quezon City Circle with your mom, aunt, and cousins, I remembered when we rented a bike and got henna on our wrists that night. I was so happy that I didn't realize how fast time flew by. But there were times when I wouldn't go to see you because I had school and didn't have money, because I was too embarrassed to ask my family for money at that time. We were only together for a short time when you returned to the Philippines, but we have so many memories, thank you so much for letting me experience those. \n\n\nI remember the time I gave you a gift and I went with my sisters to Fairview to give the gift because si tita pupunta ng Japan. It was hard to bear not telling you about it until we had a fight and then ginising ka nila nung madaling araw because I had a gift for you, I'm also happy that they were happy that time even though hindi ganon ka-mahal yung regalo ko, and I'm grateful because you appreciated my gift. \n\n\nThere were so many moments that brought me happiness, and I’ll always hold on to those memories. Thank you so much for the good times we shared when we were in a relationship. \n\n\nI don’t know why I still remember all the details, but it just shows how much those moments meant to me. I’m grateful to have shared those memories with you, and I’ll always carry them with me as a reminder of the time we had together. \n\n\nTrixee, I don't know if I have the right to say this but I just want you to know that I’m so proud of how far you’ve come. I know things weren’t easy for you before, but seeing the progress you’ve made in your life now makes me so happy. You’ve grown into such a strong and amazing person, and I truly wish you all the best on your journey moving forward. \n\n\nI don’t want to have any regrets, which is why I’m sending this letter. Thank you for the love, the memories, and the lessons. \n\n\nThank you for taking the time to read this letter, if you’ve made it this far. \n\n\nI wish you nothing but the best in life and love. Take care of yourself.\n\nSincerely,\nVan Michael Arquilos Gestiada",
+
+
+    ];
+
+    const textEl = document.getElementById("text");
+    const replayBtn = document.getElementById("replayBtn");
+    const finishBtn = document.getElementById("finishBtn");
+
+    let paragraphIndex = 0;
+    let charIndex = 0;
+    let typingSpeed = 50;
+    let timeoutRef = null;
+    let isTyping = false;
+
+    function type(text) {
+      if (charIndex < text.length) {
+        textEl.textContent += text.charAt(charIndex);
+        charIndex++;
+        timeoutRef = setTimeout(() => requestAnimationFrame(() => type(text)), typingSpeed);
+      } else {
+        isTyping = false;
+        stopBlinking();
+      }
+    }
+
+    function startTyping() {
+      clearTimeout(timeoutRef);
+      textEl.classList.remove('no-blink');
+      textEl.textContent = "";
+      charIndex = 0;
+      isTyping = true;
+      type(paragraphs[paragraphIndex]);
+    }
+
+    function replayAll() {
+      if (isTyping) {
+        clearTimeout(timeoutRef);
+      }
+      startTyping();
+    }
+
+    function finishTyping() {
+      clearTimeout(timeoutRef);
+      isTyping = false;
+      textEl.textContent = paragraphs[paragraphIndex];
+      stopBlinking();
+    }
+
+    function stopBlinking() {
+      textEl.classList.add('no-blink');
+    }
+
+    replayBtn.addEventListener("click", replayAll);
+    finishBtn.addEventListener("click", finishTyping);
+    startTyping();
+  </script>
+</body>
+</html>
